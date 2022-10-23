@@ -44,7 +44,7 @@ router.post('/contacts', function(req, res, next) {
 
       contacts.render(req, res, null, "Contato enviado com sucesso!");
 
-    }).catch(err=>{
+    }).catch(err=>{ 
 
       contacts.render(req, res, err.message);
 
